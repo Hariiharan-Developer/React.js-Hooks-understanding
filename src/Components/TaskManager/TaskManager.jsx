@@ -25,6 +25,7 @@ const TaskManager = () => {
       <TaskForm addTask={addTask} />
       <TaskList task={task} toggleFunction={toggleFunction} />
       <p>Task: {task.length}</p>
+      
     </div>
   )
 }

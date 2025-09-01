@@ -4,6 +4,7 @@ const TaskList = ({task}) => {
   return (
     <div>
       {task.map((task)=><li>{task['text']}</li>)}
+      
     </div>
   )
 }
