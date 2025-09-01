@@ -19,6 +19,8 @@
    font-weight: 500;
    border-radius: 4px;
    border: none;
+   width: auto;
+   margin-bottom: 18px;
 }
 .form button{
    padding: 10px;
