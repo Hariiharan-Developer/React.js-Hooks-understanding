@@ -5,6 +5,7 @@ import UseState from './Components/Hooks/UseState.jsx/UseState'
 import UseReducer from './Components/Hooks/UseReducer/UseReducer'
 import UseAction from './Components/Hooks/UseAction/UseAction'
 import UseForm from './Components/Hooks/UseForm/useForm'
+import UseEffect from './Components/Hooks/UseEffect/UseEffect'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <UseReducer/>
       <UseAction/>
       <UseForm/>
+      <UseEffect/>
     </div>
   )
 }
