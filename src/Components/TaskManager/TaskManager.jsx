@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './TaskManager.css'
 import TaskForm from './TaskForm'
-import TaskList from '../Hooks/TaskList'
+import TaskList from './TaskList'
 
 const TaskManager = () => {
   const [task, setTask] = useState([])
