@@ -11,7 +11,7 @@ const UseState = () => {
 
     <div className='container'>
         <div className="content">
-        <h1>Use State Examples</h1>
+        <h1> 1.Use State Examples</h1>
        <button onClick={toggle}>Show Text</button>
        {isVisible &&<p>This text toggled , when you click the button that timr only shows the message</p>}
       </div>

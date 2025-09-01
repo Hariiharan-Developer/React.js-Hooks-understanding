@@ -19,7 +19,7 @@ const UseReducer = () => {
   return (
     <div className='container'>
         <div className="content">
-            <h1>Use Reducer Example</h1>
+            <h1>2.Use Reducer Example</h1>
             <p>count :{state.count}</p>
             <button onClick={()=>dispatch({type:'increament'})}>Increament</button>
             <button onClick={()=>dispatch({type:'decreament'})}>Decreament</button>

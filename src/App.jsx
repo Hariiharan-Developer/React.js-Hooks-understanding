@@ -6,6 +6,7 @@ import UseReducer from './Components/Hooks/UseReducer/UseReducer'
 import UseAction from './Components/Hooks/UseAction/UseAction'
 import UseForm from './Components/Hooks/UseForm/useForm'
 import UseEffect from './Components/Hooks/UseEffect/UseEffect'
+import UseLayout from './Components/Hooks/UseLayOut/UseLayout'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <UseAction/>
       <UseForm/>
       <UseEffect/>
+      <UseLayout/>
     </div>
   )
 }

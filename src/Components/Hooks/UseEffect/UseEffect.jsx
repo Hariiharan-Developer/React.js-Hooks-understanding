@@ -30,7 +30,7 @@ const UseEffect = () => {
   return (
     <div className='container'>
       <div className="content">
-        <h1>useEffect Example (API Fetch)</h1>
+        <h1>5.useEffect Example (API Fetch)</h1>
 
         {data && (
           <ul>
