@@ -7,6 +7,7 @@ import UseAction from './Components/Hooks/UseAction/UseAction'
 import UseForm from './Components/Hooks/UseForm/useForm'
 import UseEffect from './Components/Hooks/UseEffect/UseEffect'
 import UseLayout from './Components/Hooks/UseLayOut/UseLayout'
+import UseContext from './Components/Hooks/UseContext/UseContext'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <UseForm/>
       <UseEffect/>
       <UseLayout/>
+      <UseContext/>
     </div>
   )
 }
