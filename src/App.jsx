@@ -4,6 +4,7 @@ import TaskForm from './Components/TaskManager/TaskForm'
 import UseState from './Components/Hooks/UseState.jsx/UseState'
 import UseReducer from './Components/Hooks/UseReducer/UseReducer'
 import UseAction from './Components/Hooks/UseAction/UseAction'
+import UseForm from './Components/Hooks/UseForm/useForm'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <UseState/>
       <UseReducer/>
       <UseAction/>
+      <UseForm/>
     </div>
   )
 }
