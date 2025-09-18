@@ -8,6 +8,7 @@ import UseForm from './Components/Hooks/UseForm/useForm'
 import UseEffect from './Components/Hooks/UseEffect/UseEffect'
 import UseLayout from './Components/Hooks/UseLayOut/UseLayout'
 import UseContext from './Components/Hooks/UseContext/UseContext'
+import UseRef from './Components/Hooks/Useref/UseRef'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <UseEffect/>
       <UseLayout/>
       <UseContext/>
+      <UseRef/>
     </div>
   )
 }
